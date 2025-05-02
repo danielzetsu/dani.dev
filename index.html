@@ -1,104 +1,100 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Daniel David Arroyo Violet - CV</title>
-  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/css/styles.css">
 </head>
 <body>
-  
-    <aside class="sidebar">
-      <nav class="sidebar-nav">
-        <a href="#summary" class="nav-item">Resumen</a>
-        <a href="#overview" class="nav-item">Perfil</a>
-        <a href="#work-history" class="nav-item">Experiencia</a>
-        <a href="#education" class="nav-item">Educación</a>
-        <a href="#skills" class="nav-item">Habilidades</a>
-        <a href="#personal-info" class="nav-item">Información Personal</a>
-        <a href="#timeline" class="nav-item">Línea de Tiempo</a>
-      </nav>
-    </aside>
-  
   <header class="header">
     <div class="header-image">
-      <img src="img/foto.jpg" alt="Foto de perfil" />
+      <img src="img/foto.jpg" alt="Daniel David Arroyo Violet">
     </div>
     <div class="header-content">
       <h1>DANIEL DAVID ARROYO VIOLET</h1>
-      <p><strong>Ingeniería de Sistemas · Montería</strong></p>
-      <button id="openModalBtn">Contactar</button>
+      <div class="header-tags">
+        <span>Ingeniería de Sistemas</span> · <span>Montería</span>
+      </div>
+      <button class="contact-button">Contact Me</button>
     </div>
   </header>
 
-<!-- Contenido principal -->
-    <main class="main-content">
-        <header class="profile-header">
-          <img src="img/profile.jpg" alt="Foto de perfil" class="profile-img" />
-          <h1>Daniel David Arroyo Violet</h1>
-          <h2>Ingeniero de Software</h2>
-        </header>
-  
-        <section id="summary">
-          <h3>Resumen Profesional</h3>
-          <p>Desarrollador con experiencia en aplicaciones web modernas, enfocado en rendimiento y experiencia de usuario.</p>
-        </section>
-  
-        <section id="overview">
-          <h3>Perfil</h3>
-          <p>Apasionado por la tecnología, con habilidades en frontend y backend, y experiencia liderando proyectos.</p>
-        </section>
-  
-        <section id="work-history">
-          <h3>Experiencia Laboral</h3>
-          <p><strong>Empresa XYZ</strong> - Desarrollador Full Stack (2020 - Presente)</p>
-          <p>Responsable del desarrollo de plataformas web escalables.</p>
-        </section>
-  
-        <section id="education">
-          <h3>Educación</h3>
-          <p><strong>Universidad de Córdoba</strong> - Ingeniería de Sistemas (2012 - 2017)</p>
-        </section>
-  
-        <section id="skills">
-          <h3>Habilidades</h3>
-          <ul>
-            <li>HTML, CSS, JavaScript</li>
-            <li>React, Node.js</li>
-            <li>Git, Docker, MongoDB</li>
-          </ul>
-        </section>
-  
-        <section id="personal-info">
-          <h3>Información Personal</h3>
-          <p>Correo: daniel@example.com</p>
-          <p>Teléfono: +57 300 000 0000</p>
-          <p>LinkedIn: linkedin.com/in/daniel</p>
-        </section>
-  
-        <section id="timeline">
-          <h3>Línea de Tiempo</h3>
-          <p>2020 - Actualidad: Empresa XYZ</p>
-          <p>2017 - 2020: Empresa ABC</p>
-        </section>
-      </main>
-    </div>
-   
-  
+  <main class="main-content">
+    <section class="section">
+      <h2>Resumen</h2>
+      <p>Desarrollador Full Stack con más de 6 años de experiencia en desarrollo web backend y frontend. Especializado en Laravel, Java, Spring Boot y bases de datos SQL Server y PostgreSQL. He trabajado en plataformas empresariales con despliegue en Azure, APIs RESTful, y metodologías ágiles (Scrum). Apasionado por crear soluciones escalables y accesibles.</p>
+    </section>
 
-  <div id="modal" class="modal">
-    <div class="modal-content">
-      <span id="closeModalBtn" class="close">&times;</span>
-      <h2>Formulario de Contacto</h2>
-      <form>
-        <label>Nombre:<input type="text" required /></label><br />
-        <label>Correo:<input type="email" required /></label><br />
-        <label>Mensaje:<textarea required></textarea></label><br />
-        <button type="submit">Enviar</button>
-      </form>
-    </div>
-  </div>
+    <section class="section">
+      <h2>Experiencia Laboral</h2>
 
-  <script src="js/scripts.js"></script>
+      <div class="work-entry">
+        <div class="entry-title">Programador de Sistemas</div>
+        <div class="entry-subtitle">Cabarrás Suministros S.A.S · 01/2020 – Current</div>
+        <div class="entry-description">Desarrollador backend con enfoque en Laravel y SQL Server. Mantenimiento y mejora de sistemas internos empresariales.</div>
+      </div>
+
+      <div class="work-entry">
+        <div class="entry-title">Coordinador de Sistemas</div>
+        <div class="entry-subtitle">Funguis S.A.S · 03/2017 – 04/2019</div>
+        <div class="entry-description">Coordinación del área técnica, desarrollo y soporte a sistemas administrativos.</div>
+      </div>
+
+      <div class="work-entry">
+        <div class="entry-title">Auxiliar de Sistemas</div>
+        <div class="entry-subtitle">Depósito de Drogas París LTDA · 10/2011 – 01/2017</div>
+        <div class="entry-description">Soporte técnico, mantenimiento de hardware y software, asistencia a usuarios.</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Educación</h2>
+
+      <div class="education-entry">
+        <div class="entry-title">Ingeniería de Sistemas</div>
+        <div class="entry-subtitle">Corporación Universitaria Remington (Montería)</div>
+      </div>
+
+      <div class="education-entry">
+        <div class="entry-title">Análisis y Programación de Computadores</div>
+        <div class="entry-subtitle">CINSA (Montería)</div>
+      </div>
+
+      <div class="education-entry">
+        <div class="entry-title">Comunicación y Habilidades Sociales</div>
+        <div class="entry-subtitle">CINSA (Montería)</div>
+      </div>
+
+      <div class="education-entry">
+        <div class="entry-title">Telemática y Redes</div>
+        <div class="entry-subtitle">CINSA (Montería)</div>
+      </div>
+
+      <div class="education-entry">
+        <div class="entry-title">Bachiller Académico</div>
+        <div class="entry-subtitle">Institución Educativa Isabel la Católica (Montería)</div>
+      </div>
+
+      <div class="education-entry">
+        <div class="entry-title">Docencia Universitaria</div>
+        <div class="entry-subtitle">Instituto de Formación y Capacitación Continexar (Montería)</div>
+      </div>
+
+      <div class="education-entry">
+        <div class="entry-title">Facturación en Salud</div>
+        <div class="entry-subtitle">Instituto de Formación y Capacitación Continexar (Montería)</div>
+      </div>
+
+      <div class="education-entry">
+        <div class="entry-title">Inglés Básico</div>
+        <div class="entry-subtitle">Servicio Nacional de Aprendizaje SENA (Montería)</div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    // Aquí puedes agregar funcionalidades JS si deseas, como abrir modal de contacto, etc.
+  </script>
 </body>
 </html>
