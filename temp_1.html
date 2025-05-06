@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV Online - Daniel David Arroyo Violet</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
     * {
       margin: 0;
       padding: 0;
@@ -212,37 +220,105 @@
       z-index: 0;
     }
     /* 🔄 RESPONSIVE STYLES */
-@media (max-width: 768px) {
-    /* Overview cards apiladas */
-    .overview-cards {
-      flex-direction: column;
-      gap: 1rem;
-    }
+ @media (max-width: 768px) {
+  /* Overview cards apiladas */
+  .overview-cards {
+    flex-direction: column;
+    gap: 1rem;
+  }
 
-    .overview-card {
-      flex: 1 1 100%;
-    }
+  .overview-card {
+    flex: 1 1 100%;
+  }
 
-    /* Timeline línea a la izquierda */
-    .timeline::before {
-      left: 20px;
-      transform: none;
-    }
+  /* Timeline línea a la izquierda */
+  .timeline::before {
+    left: 20px;
+    transform: none;
+  }
 
-    .timeline-item {
-      width: 100%;
-      padding-left: 3rem;
-      padding-right: 1rem;
-      text-align: left !important;
-      left: 0 !important;
-    }
+  .timeline-item {
+    width: 100%;
+    padding-left: 3rem;
+    padding-right: 1rem;
+    text-align: left !important;
+    left: 0 !important;
+  }
 
-    .timeline-item::before {
-      left: 0;
-      right: auto;
-    }
+  .timeline-item::before {
+    left: 0;
+    right: auto;
+  }
 
-    .timeline-content {
-      margin-left: 2rem;
-    }
-} 
+  .timeline-content {
+    margin-left: 2rem;
+  }
+}
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://via.placeholder.com/120" class="profile-img" alt="Foto de perfil">
+    <h1>DANIEL DAVID ARROYO VIOLET</h1>
+    <div class="subtitle">Ingeniería de Sistemas • Montería</div>
+    <nav>
+      <a href="#">Work History</a>
+      <a href="#">Education</a>
+      <a href="#">Skills</a>
+      <a href="#">Timeline</a>
+      <button class="contact-btn">Contact Me</button>
+    </nav>
+  </header>
+
+  <section class="overview-section">
+    <div class="overview-title">
+      <i>📄</i> OVERVIEW
+    </div>
+    <div class="overview-cards">
+      <div class="overview-card" data-bg-number="7">
+        <div class="big-number">7</div>
+        <div class="label">AÑOS DE EXPERIENCIA PROFESIONAL</div>
+      </div>
+      <div class="overview-card" data-bg-number="15">
+        <div class="big-number">15</div>
+        <div class="label">AÑOS DE EDUCACIÓN POSTSECUNDARIA</div>
+      </div>
+    </div>
+  </section>
+  <section class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <h3>Programador de Sistemas</h3>
+        <p>CABARIAS SAMIENTO S.A.S | 01.2020 - Actualidad</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <h3>Auxiliar de Sistemas</h3>
+        <p>DEPOSITOS DE DROGAS PARIS LTDA | 10.2011 - 04.2017</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <h3>Coordinador de Sistemas</h3>
+        <p>FINANCIERA S.A.S | 03.2017 - 04.2019</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <h3>Ingeniería de Sistemas</h3>
+        <p>Corporación Universitaria Remington | undefined</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Daniel David Arroyo Violet — bold.pro
+  </footer>
+
+</body>
+</html>
