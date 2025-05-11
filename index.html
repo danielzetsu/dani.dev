@@ -4,72 +4,322 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Daniel David Arroyo Violet - CV</title>
-  <link rel="stylesheet" href="css/styles.css" >
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-
-  <header>
-    <img src="https://via.placeholder.com/120" class="profile-img" alt="Foto de perfil">
-    <h1>DANIEL DAVID ARROYO VIOLET</h1>
-    <div class="subtitle">Ingeniería de Sistemas • Montería</div>
-    <nav>
-      <a href="#">Work History</a>
-      <a href="#">Education</a>
-      <a href="#">Skills</a>
-      <a href="#">Timeline</a>
-      <button class="contact-btn">Contact Me</button>
-    </nav>
-  </header>
-
-  <section class="overview-section">
-    <div class="overview-title">
-      <i>📄</i> OVERVIEW
-    </div>
-    <div class="overview-cards">
-      <div class="overview-card" data-bg-number="7">
-        <div class="big-number">7</div>
-        <div class="label">AÑOS DE EXPERIENCIA PROFESIONAL</div>
+  <section class="header-section">
+    <header class="main-header section-container">
+      <img src="img/foto.jpg" class="profile-img" alt="Daniel David Arroyo Violet - Foto de perfil">
+      <h1>DANIEL DAVID ARROYO VIOLET</h1>
+      <div class="subtitle">Ingeniería de Sistemas • Montería</div>
+      <div class="contact-info">
+        <p><i class="fas fa-phone"></i> (+57) 3218046396</p>
+        <p><i class="fas fa-envelope"></i> daniel.david.arroyo.violet@gmail.com</p>
+        <p><i class="fas fa-map-marker-alt"></i> Montería, 230001 COR</p>
       </div>
-      <div class="overview-card" data-bg-number="15">
-        <div class="big-number">15</div>
-        <div class="label">AÑOS DE EDUCACIÓN POSTSECUNDARIA</div>
+      <div class="social-links">
+        <a href="https://linkedin.com/in/daniel-arroyo-7933aa142" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/danielzetsu" target="_blank"><i class="fab fa-github"></i></a>
       </div>
-    </div>
+      <nav class="main-nav">
+        <a href="#overview" class="nav-link">OVERVIEW</a>
+        <a href="#skills" class="nav-link">SKILLS</a>
+        <a href="#experience" class="nav-link">WORK HISTORY</a>
+        <a href="#education" class="nav-link">EDUCATION</a>
+        <a href="#languages" class="nav-link">LANGUAGES</a>
+        <a href="#additional" class="nav-link">ADDITIONAL INFO</a>
+      </nav>
+    </header>
   </section>
-  <section class="timeline">
-    <div class="timeline-item">
-      <div class="timeline-content">
-        <h3>Programador de Sistemas</h3>
-        <p>CABARIAS SAMIENTO S.A.S | 01.2020 - Actualidad</p>
-      </div>
-    </div>
 
-    <div class="timeline-item">
-      <div class="timeline-content">
-        <h3>Auxiliar de Sistemas</h3>
-        <p>DEPOSITOS DE DROGAS PARIS LTDA | 10.2011 - 04.2017</p>
+  <section id="overview" class="overview-section">
+    <div class="section-container">
+      <div class="overview-title right-aligned">
+        <i class="icon">📄</i> OVERVIEW
       </div>
-    </div>
-
-    <div class="timeline-item">
-      <div class="timeline-content">
-        <h3>Coordinador de Sistemas</h3>
-        <p>FINANCIERA S.A.S | 03.2017 - 04.2019</p>
-      </div>
-    </div>
-
-    <div class="timeline-item">
-      <div class="timeline-content">
-        <h3>Ingeniería de Sistemas</h3>
-        <p>Corporación Universitaria Remington | undefined</p>
+      <div class="overview-content">
+        <p class="bio">Desarrollador Full Stack con más de 5 años de experiencia en desarrollo web backend y frontend. Especializado en Laravel, Java, Spring Boot y bases de datos SQL Server y PostgreSQL. He trabajado en plataformas empresariales, con despliegue en Azure, APIs RESTful, y metodologías ágiles (Scrum). Apasionado por crear soluciones robustas y escalables.</p>
       </div>
     </div>
   </section>
 
-  <footer>
-    © 2025 Daniel David Arroyo Violet — bold.pro
+  <section id="skills" class="skills-section">
+    <div class="section-container">
+      <div class="overview-title">
+        <i class="icon">🔧</i> SKILLS
+      </div>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>Lenguajes</h3>
+          <ul>
+            <li>PHP</li>
+            <li>Java</li>
+            <li>JavaScript</li>
+            <li>SQL</li>
+            <li>Python</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3>Frameworks</h3>
+          <ul>
+            <li>Laravel</li>
+            <li>Spring Boot</li>
+            <li>KumbiaPHP</li>
+            <li>Angular</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3>Bases de Datos</h3>
+          <ul>
+            <li>SQL Server</li>
+            <li>PostgreSQL</li>
+            <li>MySQL</li>
+            <li>MongoDB</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3>DevOps & Tools</h3>
+          <ul>
+            <li>Docker</li>
+            <li>Git</li>
+            <li>Azure</li>
+            <li>Postman</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="experience-section">
+    <div class="section-container">
+      <div class="overview-title">
+        <i class="icon">💼</i> WORK HISTORY
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-date">2020-02 - Actualidad</div>
+          <div class="timeline-content">
+            <h3>Programador De Sistemas</h3>
+            <p class="company">CABARCAS SARMIENTO S.A.S, Montería, Córdoba</p>
+            <ul class="responsibilities">
+              <li>Programador en los siguientes: estilo CSS 3, Bootstrap v3 - v4 Composer, el gestor de dependencias de PHP, framework Laravel, framework kumbiaphp, manejo de control de versiones con GIT, Javascript, PHP orientada a objetos diseño MVC, Páginas web HTML 5, SQL, Jquery, AJAX y JSON.</li>
+              <li>Administrador de la base de datos SQL server.</li>
+              <li>De la empresa cabarcas sarmiento soporte a diferentes áreas de la empresa cabarcas, afianzando y credimotos sus funcionalidades, administrador del dominio de correo electrónico.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">2017-04 - 2019-04</div>
+          <div class="timeline-content">
+            <h3>Coordinador De Sistemas</h3>
+            <p class="company">FINANCIAYA S.A.S, Montería, Córdoba</p>
+            <ul class="responsibilities">
+              <li>Administrador de la base de datos SQL server.</li>
+              <li>Administrador del servidor de telefonía IP, software DMS y funcionalidades empresariales.</li>
+              <li>Soporte técnico concerniente a las funciones de sistemas.</li>
+              <li>Apoyo en adquisición y compras de herramientas tecnológicas.</li>
+              <li>Auditor del servidor de aplicación (software DMS) y servidor de base datos.</li>
+              <li>Desarrollador de funciones en el diseño de página web.</li>
+              <li>Manejo de partes técnica y software de base de datos en MSSQL Server.</li>
+              <li>Gestión de data crédito bajo política de habeas data.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">2011-11 - 2017-04</div>
+          <div class="timeline-content">
+            <h3>Auxiliar de Sistemas</h3>
+            <p class="company">DEPOSITO DE DROGAS PARIS LTDA, Montería, Córdoba</p>
+            <ul class="responsibilities">
+              <li>Mantenimientos preventivos y correctivos de hardware y software.</li>
+              <li>Administración e instalación de circuito cerrado y activos empresariales.</li>
+              <li>Configuración de redes y administración de seguridad VPN con MIKROTIK.</li>
+              <li>Gestión de procesos, documentación y capacitaciones en sistemas.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education" class="education-section">
+    <div class="section-container">
+      <div class="overview-title">
+        <i class="icon">🎓</i> EDUCATION
+      </div>
+      <div class="education-grid">
+        <div class="education-item">
+          <div class="education-year">2021</div>
+          <h3>DOCENCIA UNIVERSITARIA</h3>
+          <p class="institution">Instituto de Formación y Capacitación IFC (IFC Confacor)</p>
+          <p class="location">Montería, Córdoba</p>
+        </div>
+
+        <div class="education-item">
+          <div class="education-year">2019</div>
+          <h3>INGENIERÍA DE SISTEMAS</h3>
+          <p class="institution">Corporación Universitaria Remington (Uniremington)</p>
+          <p class="location">Medellín, Colombia</p>
+        </div>
+
+        <div class="education-item">
+          <div class="education-year">2019</div>
+          <h3>FACTURACIÓN EN SALUD</h3>
+          <p class="institution">Instituto de formación y capacitación comfacor (IFC)</p>
+          <p class="location">Montería, Córdoba</p>
+        </div>
+
+        <div class="education-item">
+          <div class="education-year">2019</div>
+          <h3>INGLES BÁSICO</h3>
+          <p class="institution">Servicio Nacional de Aprendizaje (SENA)</p>
+          <p class="location">Montería, Córdoba</p>
+        </div>
+
+        <div class="education-item">
+          <div class="education-year">2013</div>
+          <h3>ANALISIS Y PROGRAMACIÓN DE COMPUTADRES</h3>
+          <p class="institution">CENSA centro de sistemas de Antioquia</p>
+          <p class="location">Montería, Córdoba</p>
+        </div>
+
+        <div class="education-item">
+          <div class="education-year">2013</div>
+          <h3>TELEMÁTICA Y REDES</h3>
+          <p class="institution">CENSA</p>
+          <p class="location">Montería, Córdoba</p>
+        </div>
+
+        <div class="education-item">
+          <div class="education-year">2013</div>
+          <h3>COMUNICACIÓN Y HABILIDADES SOCIALES</h3>
+          <p class="institution">CENSA</p>
+          <p class="location">Montería, Córdoba</p>
+        </div>
+
+        <div class="education-item">
+          <div class="education-year">2009</div>
+          <h3>Bachiller Académico</h3>
+          <p class="institution">Institución educativa Isabel la católica</p>
+          <p class="location">Montería, Córdoba</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="languages" class="languages-section">
+    <div class="section-container">
+      <div class="overview-title">
+        <i class="icon">🌎</i> LANGUAGES
+      </div>
+      <div class="language-grid">
+        <div class="language-item">
+          <span class="language">Español</span>
+          <span class="level">Nativo</span>
+        </div>
+        <div class="language-item">
+          <span class="language">Inglés</span>
+          <span class="level">Básico</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="additional" class="additional-info-section">
+    <div class="section-container">
+      <div class="overview-title">
+        <i class="icon">👥</i> ADDITIONAL INFORMATION
+      </div>
+      <div class="additional-info-grid">
+        <div class="reference-item">
+          <div class="reference-content">
+            <h3>DUFAY CASTRILLON ARROYO</h3>
+            <p class="position">Líder en seguridad y salud en el trabajo</p>
+            <p class="company">Confacor</p>
+            <p class="location">Montería - Córdoba</p>
+            <p class="contact">Tel: 314 664 3709</p>
+            <a href="https://co.linkedin.com/in/dufay-angélica-castrillón-arroyo-6b6a2b307" target="_blank" class="linkedin-btn">
+              <i class="fab fa-linkedin"></i> Ver Perfil
+            </a>
+          </div>
+        </div>
+  
+        <div class="reference-item">
+          <div class="reference-content">
+            <h3>ANGELICA ORTIZ ARROYO</h3>
+            <p class="position">Psicóloga</p>
+            <p class="company">Grupo Activos SAS</p>
+            <p class="location">Montería - Córdoba</p>
+            <p class="contact">Tel: 301 523 9393</p>
+            <a href="https://co.linkedin.com/in/angelica-ortiz-arroyo-48376488" target="_blank" class="linkedin-btn">
+              <i class="fab fa-linkedin"></i> Ver Perfil
+            </a>
+          </div>
+        </div>
+  
+        <div class="reference-item">
+          <div class="reference-content">
+            <h3>ANDRES ORTIZ ARROYO</h3>
+            <p class="position">Gerente de distrito</p>
+            <p class="company">Eurofarma</p>
+            <p class="location">Montería - Córdoba</p>
+            <p class="contact">Tel: 304 356 6520</p><a href="https://co.linkedin.com/in/andr%C3%A9s-camilo-ortiz-arroyo-a32810a6" target="_blank" class="linkedin-btn">
+              <i class="fab fa-linkedin"></i> Ver Perfil
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="main-footer">
+    <div class="section-container">
+      © 2025 Daniel David Arroyo Violet — Portfolio: 
+      <a href="https://danielzetsu.github.io/dani.dev/" target="_blank">danielzetsu.github.io/dani.dev</a>
+    </div>
   </footer>
+</body>
+</html>
+<button id="scrollToTop" class="scroll-to-top">
+  <i class="fas fa-chevron-up"></i>
+</button>
 
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script>
+  $(document).ready(function() {
+    // Mostrar/ocultar el botón basado en el scroll
+    $(window).scroll(function() {
+      if ($(this).scrollTop() > 300) {
+        $('#scrollToTop').addClass('visible');
+      } else {
+        $('#scrollToTop').removeClass('visible');
+      }
+    });
+    
+    // Scroll suave al hacer clic en el botón
+    $('#scrollToTop').click(function() {
+      $('html, body').animate({
+        scrollTop: 0
+      }, 800);
+      return false;
+    });
+
+    // Scroll suave para los enlaces de navegación
+    $('.nav-link').click(function(e) {
+      e.preventDefault();
+      var target = $($(this).attr('href'));
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top - 20
+        }, 800);
+      }
+    });
+  });
+</script>
 </body>
 </html>
